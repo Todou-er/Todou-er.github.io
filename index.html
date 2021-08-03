@@ -94,20 +94,47 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p> 迭代</p>
-<p>#include&lt;stdio.h&gt;<br>int main(void)<br>{<br>    int n,num=1,i;//整数n，结果num<br>    scanf(“%d”,&amp;n) ;<br>    for(i=n;i&gt;1;i–) //迭代求阶乘<br>    {<br>        num= num*i;<br>    }<br>    printf(“%d”,num);//输出结果 </p>
-<p>​    return 0;</p>
-<p>} </p>
+<pre><code> 
+#include<stdio.h>
+int main(void)
+&#123;
+    int n,num=1,i;//整数n，结果num 
+    scanf("%d",&n) ;
+    for(i=n;i>1;i--) //迭代 
+    &#123;
+        num= num*i;
+    &#125;
+    printf("%d",num);
+    return 0;
+&#125;
+</code></pre>
+
 <p>递归</p>
-<p>#include&lt;stdio.h&gt;<br>int main(void)<br>{<br>    int n;<br>    scanf(“%d”,&amp;n);<br>    printf(“%d”,n=f(n));<br>    return 0;<br>}<br>int f(n)//递归  当n为1时返回1，不为1求下个数的阶乘<br>{<br>    if(n==1) return 1;<br>    else return n*f(n-1);<br>}</p>
+<pre><code>
+#include<stdio.h>
+int main(void)
+&#123;
+int n;
+scanf(“%d”,&n);
+printf(“%d”,n=f(n));
+return 0;
+&#125;
+int f(n)//递归 当n为1时返回1，不为1求下个数的阶乘
+&#123;
+if(n==1) return 1;
+else return n*f(n-1);
+&#125;
+</code></pre>
+
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/02/second/" data-id="ckrvl43m600037swbghpoedml" data-title="阶乘" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/08/02/second/" data-id="ckrvlwxwv00033kwb0y90hu9u" data-title="阶乘" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pre-code-%E4%BB%A3%E7%A0%81-code-pre/" rel="tag"><pre><code> 代码 </code></pre></a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%A3%E7%A0%81/" rel="tag">代码</a></li></ul>
 
     </footer>
   </div>
@@ -139,16 +166,32 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>#include&lt;stdio.h&gt;<br>int main(void)<br>{<br>    int n,i,d,max;//设该数组有n个数,i为循环次数，d为输入值 ，max为最大值<br>    scanf(“%d%d”,&amp;n,&amp;max);<br>    for(i=1;i&lt;n;i++)//输入n个整数<br>    {<br>        scanf(“%d”,&amp;d);<br>        if(max&lt;d) max=d;//取最大值<br>    }<br>    printf(“%d”,max);//输出最大值<br>    return 0;<br>}</p>
+        <pre><code>
+#include<stdio.h>
+int main(void)
+&#123;
+    int n,i,d,max;//设该数组有n个数,i为循环次数，d为输入值 ，max为最大值
+    scanf("%d%d",&n,&max);
+    for(i=1;i<n;i++)//输入n个整数 
+    &#123;
+        scanf("%d",&d);
+        if(max<d) max=d;//取最大值 
+    &#125;
+    printf("%d",max);//输出最大值 
+    return 0;
+&#125;
+</code></pre>
+
+
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/02/first/" data-id="ckrvl43ly00007swbfkfhg10p" data-title="数组" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/08/02/first/" data-id="ckrvlwxwl00003kwbcwkm0zq6" data-title="数组" class="article-share-link">Share</a>
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/pre-code-%E4%BB%A3%E7%A0%81-code-pre/" rel="tag"><pre><code> 代码 </code></pre></a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BB%A3%E7%A0%81/" rel="tag">代码</a></li></ul>
 
     </footer>
   </div>
@@ -171,7 +214,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/pre-code-%E4%BB%A3%E7%A0%81-code-pre/" rel="tag"><pre><code> 代码 </code></pre></a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BB%A3%E7%A0%81/" rel="tag">代码</a></li></ul>
     </div>
   </div>
 
@@ -181,7 +224,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/pre-code-%E4%BB%A3%E7%A0%81-code-pre/" style="font-size: 10px;"><pre><code> 代码 </code></pre></a>
+      <a href="/tags/%E4%BB%A3%E7%A0%81/" style="font-size: 10px;">代码</a>
     </div>
   </div>
 
